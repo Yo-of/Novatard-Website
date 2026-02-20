@@ -21,7 +21,6 @@ body {
     align-items: center;
     padding: 1rem 2rem;
     background-color: transparent;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .navbar .home {
@@ -58,10 +57,13 @@ body {
 }
 
 .link Button {
-    padding: 0.5rem 1.5rem;
-    background-color: #00bfff;
+    width: 102px;
+    height: 39px;
+    margin: 0 0;
+    padding: 0 0;
+    background-color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -72,5 +74,7 @@ body {
 
 .link Button a {
     color: #000;
-    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
 }

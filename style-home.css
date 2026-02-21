@@ -33,9 +33,16 @@ body {
     gap: 0.5rem;
 }
 
+.home:hover {
+    color: #d4d4d4;
+}
+
 .novatard-logo {
-    width: 40px;
-    height: 40px;
+    margin-top: 5px;
+    margin-left: -15px;
+    margin-right: 5px;
+    width: 45px;
+    height: 45px;
     border-radius: 0.2rem;
 }
 
@@ -45,15 +52,23 @@ body {
     align-items: center;
 }
 
+.direct-link {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
 .link a {
     text-decoration: none;
-    color: #fff;
+    color: #d4d4d4;
     font-size: 1rem;
     transition: color 0.3s ease;
 }
 
-.link a:hover {
-    color: #00bfff;
+.direct-link a:hover {
+    color: #fafafa  ;
+    text-decoration: underline;
+    transition: text-decoration 1s ease;
 }
 
 .link Button {
@@ -65,16 +80,25 @@ body {
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.5s ease;
+        transition: font-weight 0.5s ease;
+    transition: font-size 0.5s ease;
+    transition: scale 0.5s ease;
 }
 
-.link Button:hover {
-    background-color: #0099cc;
+.button-contact:hover {
+    background-color: #b8b8b8;
+    font-weight: 600;
+    font-size: 16px;
+    scale: 1.05;
+    transition: font-weight 0.5s ease;
+    transition: font-size 0.5s ease;
+    transition: scale 0.5s ease;
 }
 
-.link Button a {
-    color: #000;
-    font-family: "Poppins", sans-serif;
+.link Button {
+    color: #111;
+    font-family: "Satoshi", sans-serif;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 15px;
 }
